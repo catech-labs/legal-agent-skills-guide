@@ -21,3 +21,12 @@ features:
   discussions: recommended-after-first-community-contributions
   projects: false
   wiki: false
+custom_properties:
+  project_type: open-source-research-guide
+  owner: catech-labs
+  business_domain: legal-ai
+  data_classification: public
+  lifecycle: active
+  criticality: low
+  compliance_scope: none
+  primary_language: markdown
