@@ -1,0 +1,23 @@
+# Desired GitHub repository metadata.
+# This file documents the public configuration and can be consumed by future organization automation.
+
+name: legal-agent-skills-guide
+description: A practical guide to discovering, evaluating, and safely using open legal Agent Skills.
+homepage: https://catechlabs.com.br/pt
+visibility: public
+topics:
+  - legal-ai
+  - agent-skills
+  - legaltech
+  - ai-agents
+  - legal-automation
+  - claude
+  - codex
+  - mcp
+  - brazil
+  - law
+features:
+  issues: true
+  discussions: recommended-after-first-community-contributions
+  projects: false
+  wiki: false
