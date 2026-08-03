@@ -1,0 +1,81 @@
+schema_version: 1
+reviewed_on: '2026-08-03'
+methodology: Facts are based on upstream repository documentation. Inclusion is not certification.
+projects:
+- name: Claude for Legal
+  repository: https://github.com/anthropics/claude-for-legal
+  owner: Anthropic
+  type: official-reference-suite
+  best_for: Complete legal workflow reference in the Claude ecosystem
+  jurisdiction_focus:
+  - global
+  - primarily US-oriented workflows
+  strengths:
+  - broad practice-area coverage
+  - plugins, skills, agents and connectors
+  - practice profiles and trust controls
+  limitations:
+  - Claude-centric installation and runtime
+  - not specialized for Brazilian law
+  recommendation: best-overall-reference
+- name: Awesome Legal Skills
+  repository: https://github.com/lawvable/awesome-legal-skills
+  owner: Lawvable
+  type: curated-directory
+  best_for: Discovering third-party legal skills
+  jurisdiction_focus:
+  - multiple
+  strengths:
+  - broad discovery catalog
+  - legal workflow organization
+  limitations:
+  - third-party quality varies
+  - licenses and security must be reviewed per project
+  recommendation: best-discovery-catalog
+- name: LQ Skills
+  repository: https://github.com/LegalQuants/lq-skills
+  owner: Legal Quants
+  type: practitioner-built-collection
+  best_for: High-signal, jurisdiction-aware skills built by legal practitioners
+  jurisdiction_focus:
+  - multiple
+  - 17+ jurisdictions represented by the community
+  strengths:
+  - lawyer-builder community
+  - transparent and version-controlled skills
+  - harness-agnostic positioning
+  limitations:
+  - smaller than mass-scale libraries
+  - coverage varies by jurisdiction
+  recommendation: best-practitioner-collection
+- name: Contract Review Agent Skill
+  repository: https://github.com/evolsb/claude-legal-skill
+  owner: evolsb
+  type: focused-skill
+  best_for: First-pass contract review and issue spotting
+  jurisdiction_focus:
+  - primarily US
+  strengths:
+  - position-aware review
+  - risk flags and market benchmarks
+  - suggested redlines
+  limitations:
+  - contract-specific
+  - US-law focus
+  recommendation: best-focused-contract-review
+- name: Legal Skills Open
+  repository: https://github.com/ThomasMoreAI/legal-skills-open
+  owner: ThomasMoreAI
+  type: large-open-library
+  best_for: Exploring broad jurisdiction and practice-area taxonomy
+  jurisdiction_focus:
+  - 39 jurisdictions claimed upstream
+  - includes Brazil
+  strengths:
+  - large library
+  - jurisdiction and practice taxonomy
+  - Apache-2.0 project license
+  limitations:
+  - individual skills require independent validation
+  - freshness and depth may vary at scale
+  recommendation: best-breadth-reference
