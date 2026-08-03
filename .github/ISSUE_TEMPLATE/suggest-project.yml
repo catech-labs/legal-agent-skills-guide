@@ -1,0 +1,40 @@
+name: Suggest a legal skills project
+description: Propose a project for evaluation and possible inclusion
+title: "[Project]: "
+labels:
+  - project-suggestion
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Canonical public repository URL
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Legal workflows
+      description: What legal work does the project support?
+    validations:
+      required: true
+  - type: input
+    id: jurisdictions
+    attributes:
+      label: Jurisdictions
+      description: Countries, states, courts, regulators, or jurisdiction-agnostic
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and limitations
+      description: Documentation, testing, maintenance, security, and known limitations
+    validations:
+      required: true
