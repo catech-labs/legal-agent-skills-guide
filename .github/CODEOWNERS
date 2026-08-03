@@ -1,0 +1,9 @@
+# Default ownership
+* @Neilton
+
+# Governance and security-sensitive files
+/.github/ @Neilton
+/SECURITY.md @Neilton
+/CONTRIBUTING.md @Neilton
+/CODE_OF_CONDUCT.md @Neilton
+/catalog/ @Neilton
