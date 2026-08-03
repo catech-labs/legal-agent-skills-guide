@@ -1,8 +1,6 @@
 name: Suggest a legal skills project
 description: Propose a project for evaluation and possible inclusion
 title: "[Project]: "
-labels:
-  - project-suggestion
 body:
   - type: input
     id: repository
