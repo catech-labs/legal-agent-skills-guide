@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/catech-labs/legal-agent-skills-guide/security/policy
+    about: Report vulnerabilities or sensitive security concerns without publishing confidential information.
+  - name: Questions about a listed project
+    url: https://github.com/catech-labs/legal-agent-skills-guide/blob/main/SUPPORT.md
+    about: Read the support policy before opening a project-specific question.
