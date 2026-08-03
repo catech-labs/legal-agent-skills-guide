@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this guide in research or professional work, cite the repository and the reviewed version."
+title: "Legal Agent Skills Guide"
+type: software
+version: 0.1.0
+date-released: 2026-08-03
+authors:
+  - name: "Catech Labs"
+repository-code: "https://github.com/catech-labs/legal-agent-skills-guide"
+url: "https://github.com/catech-labs/legal-agent-skills-guide"
+license: MIT
+abstract: "An independent guide to discovering, evaluating, and safely using open legal Agent Skills."
+keywords:
+  - legal-ai
+  - agent-skills
+  - legaltech
+  - ai-agents
+  - legal-automation
+  - mcp
